@@ -28,14 +28,9 @@ const MENU_ITEMS = [
         children: {
             title: 'Language',
             data: [
-                {
-                    code: 'eng',
-                    title: 'English',
-                },
-                {
-                    code: 'vie',
-                    title: 'Tieng Viet',
-                },
+                { type: 'language', code: 'eng', title: 'English' },
+
+                { type: 'language', code: 'vie', title: 'Tieng Viet' },
             ],
         },
     },
