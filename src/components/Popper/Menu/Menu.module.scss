@@ -13,15 +13,18 @@
 .menu-item {
     width: 100%;
     justify-content: flex-start;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'TikTokFont', sans-serif;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     border-radius: 0;
     line-height: 18px;
     padding: 11px 14px;
     &:hover {
         background-color: rgba(22, 24, 35, 0.03);
         cursor: pointer;
+    }
+    &.separate {
+        border-top: 1px solid rgba(22, 24, 35, 0.12);
     }
 }
 
