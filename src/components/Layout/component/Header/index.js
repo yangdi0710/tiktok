@@ -35,40 +35,6 @@ const MENU_ITEMS = [
             data: [
                 { type: 'language', code: 'eng', title: 'English' },
                 { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
-                { type: 'language', code: 'eng', title: 'English' },
-                { type: 'language', code: 'vie', title: 'Tieng Viet' },
             ],
         },
     },
@@ -163,7 +129,7 @@ function Header() {
                         {currentUser ? (
                             <Image
                                 className={cx('user-avatar')}
-                                src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/caccfaf25b26cef840c92e48630b3a9b~c5_100x100.jpeg?lk3s=a5d48078&x-expires=1705500000&x-signature=mULI5IIn9nEQlGSogYO8pNe7uc8%3D"
+                                src="https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/4b85df94ddbc913a995d4d721e417580.jpeg?lk3s=a5d48078&x-expires=1706169600&x-signature=2UEKr1SrMsOtFTt6uaPdAiizCXw%3D"
                                 alt="Nguyen Van A"
                                 fallback="https://fullstack.edu.vn/static/media/f8-icon.18cd71cfcfa33566a22b.png"
                             />
