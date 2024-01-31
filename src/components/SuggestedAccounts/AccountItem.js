@@ -6,20 +6,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 import Tippy from '@tippyjs/react/headless';
 import { Wrapper as PopperWrapper } from '~/components/Popper';
+import AccountPreview from './AccountPreview';
 
 const cx = classNames.bind(styles);
 
 function AccountItem() {
     const renderPreview = (props) => {
         return (
-            <div className={cx('preview')} tabIndex="-1" {...props}>
-                <PopperWrapper>Item review</PopperWrapper>
+            <div tabIndex="-1" {...props}>
+                <PopperWrapper>
+                    <AccountPreview />
+                </PopperWrapper>
             </div>
         );
     };
     return (
         <div>
-            <Tippy interactive delay={[700, 0]} render={renderPreview} placement="bottom">
+            <Tippy interactive delay={[700, 0]} offset={[-30, 0]} render={renderPreview} placement="bottom">
                 <div className={cx('account-item')}>
                     <img
                         className={cx('avatar')}
