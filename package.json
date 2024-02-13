@@ -1,6 +1,6 @@
 {
     "homepage": "https://yangdi0710.github.io/tiktok",
-    "name": "tiktok_ui",
+    "name": "tiktok",
     "version": "0.1.0",
     "private": false,
     "dependencies": {
